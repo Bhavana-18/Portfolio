@@ -16,7 +16,7 @@ a {
   align-self: center;
   position: relative;
   background-position: center center;
-  background-image: url('assets/images/home-shape.png') !important;
+  background-image: url('../../assets/images/home-shape.png') !important;
 }
 
 /* nav-bar styles */
