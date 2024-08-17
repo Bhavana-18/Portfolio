@@ -11,5 +11,8 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  openUrlInNewWindow(url: string): void {
+    window.open(url, '_blank');
+  }
 
 }
