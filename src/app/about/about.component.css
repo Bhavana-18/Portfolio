@@ -2,7 +2,9 @@
     color: #007bff !important;
   }
   
- 
+ .card-body{
+  padding: 25px;
+ }
   .text-light {
     color: #f8f9fa !important;
   }

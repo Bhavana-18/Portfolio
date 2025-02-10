@@ -23,9 +23,8 @@ export class AboutComponent implements OnInit {
     writer
       .strings(
         400,
-        "Web Developer",
-        "Software Developer", 
-        "ML Enthusiast"
+        "Full Stack Developer",
+        "Software Developer"
       )
       .start()
 
