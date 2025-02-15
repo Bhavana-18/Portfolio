@@ -28,5 +28,8 @@ export class HomeComponent  {
   onClickScroll(elementId: string){
     this.viewportScroller.scrollToAnchor(elementId);
   }
+  openUrlInNewWindow(url: string): void {
+    window.open(url, '_blank');
+  }
 
 }
